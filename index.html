@@ -6,35 +6,53 @@
     <body>
         <style>  
         body {font-size: 11px;}
+        body {background: rgb(112, 204, 183);}
+        body {text-align: center;}
         h6 {font-size: 2em;} 
         .First_Post_1226 {font-size: 20px;}
         .big {font-size: 1.5em;}
         .bigger {font-size: 3em;}
-         
-
         .text-red {color: red;}
+         
+        #Grand_Heading {
+            position: absolute;
+            background: rgb(189, 132, 250);
+            z-index: 2;
+            font-size: 20px;
+            font-family: verdana;
+            padding: 10;
+            text-decoration:underline;
+        }
+        #ToC {
+            margin: 10px;
+            padding-top: 50px;
+            bottom: 1px;
+            text-align: left;
+        }
         #updates {
             background: rgb(100,240,230);    
             overflow: auto;
-            margin: 15px 0px 10px 6px;
+            margin: 10px 50px 1px 50px;
+            border: 5px ridge green;
+            padding: 20px;
         }    
     </style>
     
-    <h1>Sterling's Blog</h1>
-
+   <p id="Grand_Heading">Sterling's Blog </p>
+<div id="ToC">
     <h3>Contents</h3>
     <ul>
         <li>First post!</li>
         <li>Second post!</li>
     </ul>
-    
-    <h2>First post</h2>
-    <h6>January 2nd 2026</h6>
+    </div>
         <div id="updates">
+    <h6>January 2nd 2026</h6>
+        
     <p id="First_Post_1226">Today is the first post on my blog! woohoo! I'm a beginner when it comes to coding but that won't stop me from trying anyways.
    </p>
    <p id="First_Post_1226">
-   From this fourth lesson,<br> I have learned how to style text to the  <em class="big">size</em>, font and <span class="text-red">color</span> of my liking.
+   From this fourth lesson,<br> I have learned how to <em>style</em> text to the  <strong>size</strong>, font and <span class="text-red">color</span> of my liking.
    </p>
     <h6>January 6th 2026</h6>
     <p id="First_Post_1626"> Today is the second post on my blog and the first official post to the gihub website you are seeing now! <br> 
