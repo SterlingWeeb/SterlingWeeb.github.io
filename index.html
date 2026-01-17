@@ -1,45 +1,16 @@
+<!DOCTYPE html>
 <html>
-    <head>
+     <head>
         <meta charset="utf-8">
         <title>Project: Sterling Blog</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <style>  
-        body {font-size: 11px;}
-        body {background: rgb(112, 204, 183);}
-        body {text-align: center;}
-        h6 {font-size: 2em;} 
-        .First_Post_1226 {font-size: 20px;}
-        .big {font-size: 1.5em;}
-        .bigger {font-size: 3em;}
-        .text-red {color: red;}
-         
-        #Grand_Heading {
-            position: absolute;
-            background: rgb(189, 132, 250);
-            z-index: 2;
-            font-size: 20px;
-            font-family: verdana;
-            padding: 10;
-            text-decoration:underline;
-        }
-        #ToC {
-            margin: 10px;
-            padding-top: 50px;
-            bottom: 1px;
-            text-align: left;
-        }
-        #updates {
-            background: rgb(100,240,230);    
-            overflow: auto;
-            margin: 10px 50px 1px 50px;
-            border: 5px ridge green;
-            padding: 20px;
-        }    
-    </style>
+
     
    <p id="Grand_Heading">Sterling's Blog </p>
 <div id="ToC">
+     <li><a href="pages/contacts.html">Contact Me!</a></li>
     <h3>Contents</h3>
     <ul>
         <li>First post!</li>
@@ -57,7 +28,27 @@
     <h6>January 6th 2026</h6>
     <p id="First_Post_1626"> Today is the second post on my blog and the first official post to the gihub website you are seeing now! <br> 
         At the moment there are no pictures or interactive pieces yet, but there will be soon! 
-    </p> 
+    </p>  
+     <h6>January 16th 2026</h6>
+    <p id="First_Post_11626"> Today is the third post! Wow ten whole days flew by. I went through every unit /br on khan academy
+        and I am ready to start creating wire frames for how I want this website to look. Already I'm taking notes of websites palettes
+         I like. I plan to add different accesible pages today!
         </div>
+         <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "sterlingweeb",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["https://sterlingweeb.github.io/", "file:///C:/Users/sterl/OneDrive/Desktop/weebwebsite/index.html"]
+      });
+    </script>
 </body>
 </html>

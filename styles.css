@@ -1,0 +1,31 @@
+        body {font-size: 11px;}
+        body {background: rgb(112, 204, 183);}
+        body {text-align: center;}
+        h6 {font-size: 2em;} 
+        .First_Post_1226 {font-size: 20px;}
+        .big {font-size: 1.5em;}
+        .bigger {font-size: 3em;}
+        .text-red {color: red;}
+         
+        #Grand_Heading {
+            position: absolute;
+            background: rgb(189, 132, 250);
+            z-index: 2;
+            font-size: 20px;
+            font-family: verdana;
+            padding: 10;
+            text-decoration:underline;
+        }
+        #ToC {
+            margin: 10px;
+            padding-top: 50px;
+            bottom: 1px;
+            text-align: left;
+        }
+        #updates {
+            background: rgb(100,240,230);    
+            overflow: auto;
+            margin: 10px 50px 1px 50px;
+            border: 5px ridge green;
+            padding: 20px;
+        }    
