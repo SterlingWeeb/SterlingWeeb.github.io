@@ -33,21 +33,13 @@
         and I am ready to start creating wire frames for how I want this website to look. Already I'm taking notes of websites palettes
          I like. I plan to add different accesible pages today!
         </div>
-         <!-- Add a placeholder for the Twitch embed -->
-    <div id="twitch-embed"></div>
+<iframe
+  src="https://player.twitch.tv/?channel=sterlingweeb&parent=sterlingweeb.github.io"
+  height="480"
+  width="800"
+  allowfullscreen>
+</iframe>
 
-    <!-- Load the Twitch embed JavaScript file -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 854,
-        height: 480,
-        channel: "sterlingweeb",
-        // Only needed if this page is going to be embedded on other websites
-        parent: ["https://sterlingweeb.github.io/", "file:///C:/Users/sterl/OneDrive/Desktop/weebwebsite/index.html"]
-      });
-    </script>
 </body>
+
 </html>
