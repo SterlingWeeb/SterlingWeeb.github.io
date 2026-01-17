@@ -1,6 +1,9 @@
         body {
         font-size: 11px;
-        background-image: url("https://archives.bulbagarden.net/w/index.php?curid=70887");
+        background-image: url("https://archives.bulbagarden.net/media/upload/0/09/Poketopia.png");
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center;
         text-align: center;
         }
         h6 {font-size: 2em;} 
