@@ -1,13 +1,10 @@
         body {
         font-size: 11px;
-        background-image: url("/assets/Poketopia.png");
-        background-size: cover; 
-        background-repeat: no-repeat; 
-        background-position: center;
+        background: rgb(100,140,130);
         text-align: center;
         }
         h6 {font-size: 2em;} 
-        .First_Post_1226 {font-size: 20px;}
+        .blog-post {font-size: 20px;}
         .big {font-size: 1.5em;}
         .bigger {font-size: 3em;}
         .text-red {color: red;}
@@ -33,5 +30,4 @@
             margin: 10px 50px 1px 50px;
             border: 5px ridge green;
             padding: 20px;
-
         }    
