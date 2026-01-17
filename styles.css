@@ -1,6 +1,8 @@
-        body {font-size: 11px;}
-        body {background: rgb(112, 204, 183);}
-        body {text-align: center;}
+        body {
+        font-size: 11px;
+        background-image: url("https://archives.bulbagarden.net/w/index.php?curid=70887");
+        text-align: center;
+        }
         h6 {font-size: 2em;} 
         .First_Post_1226 {font-size: 20px;}
         .big {font-size: 1.5em;}
