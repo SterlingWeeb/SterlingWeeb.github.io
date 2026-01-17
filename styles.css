@@ -1,7 +1,16 @@
+<style> 
+    
+    a:link {color: white; font-family: Verdana; font-weight: bold;}
+    a:visited {color: white;}
+    a:hover {color: purple; font-size: 1.1em;}
+    a:active {color: yellow;}
+    
         body {
         font-size: 11px;
         background: rgb(100,140,130);
-        text-align: center;
+        background-image: url(/assets/poketopia.png)
+        background-repeat: yes;
+        background-position: center center;
         }
         h6 {font-size: 2em;} 
         .blog-post {font-size: 20px;}
@@ -10,19 +19,41 @@
         .text-red {color: red;}
          
         #Grand_Heading {
-            position: absolute;
+            position: relative; left: -30%; top:100px;
             background: rgb(189, 132, 250);
+            padding: 3px;
+            border: 2px solid purple;
+            border-radius: 5px;
             z-index: 2;
-            font-size: 20px;
+            font-size: 20px; color: white;
             font-family: verdana;
+            font-weight: bold;
             padding: 10;
             text-decoration:underline;
+            text-align: left;
+            display: inline-block; padding: 5px;
         }
+         #quick-bar {
+            position: relative; left: -28%; top:90px;
+            font-size: 11px;
+            color: black;
+            
+         }
         #ToC {
-            margin: 10px;
+            margin-top: 100px;
+            margin-bottom: 50px;
             padding-top: 50px;
             bottom: 1px;
-            text-align: left;
+            float: left; text-align: left;
+            font-family: Verdana;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(212, 106, 212); 
+            display: inline-block;
+            width:400px; height:200px;
+            padding: 1px;
+            border: 2px solid purple;
+            border-radius: 5px;
         }
         #updates {
             background: rgb(100,240,230);    
@@ -30,4 +61,4 @@
             margin: 10px 50px 1px 50px;
             border: 5px ridge green;
             padding: 20px;
-        }    
+        }    </style>
