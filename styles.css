@@ -1,6 +1,5 @@
-<style> 
-    
-    a:link {color: white; font-family: Verdana; font-weight: bold;}
+   
+   a:link {color: white; font-family: Verdana; font-weight: bold;}
     a:visited {color: white;}
     a:hover {color: purple; font-size: 1.1em;}
     a:active {color: yellow;}
@@ -63,4 +62,3 @@
             border: 5px ridge green;
             padding: 20px;
         }   
-         </style>
