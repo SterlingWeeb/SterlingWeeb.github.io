@@ -1,15 +1,41 @@
-   
+
    a:link {color: white; font-family: Verdana; font-weight: bold;}
     a:visited {color: white;}
-    a:hover {color: purple; font-size: 1.1em;}
+    a:hover {color: orange; font-size: 1.1em;}
     a:active {color: yellow;}
     
         body {
         font-size: 11px;
         background-image: url(../assets/poketopia.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         }
-
-        h6 {font-size: 2em;} 
+        h6 {font-size: 2em; font-weight: bold;} 
+        .schedule {
+            width: 80%;
+            max-width: 600px;
+            margin-top: 10px;
+            padding-top: 50px;
+            font-family: Verdana, sans-serif;
+            color: white;
+            background-color: #9146ff;
+             padding: 3px;
+            border: 2px solid rgb(81, 29, 81);
+            border-radius: 5px;
+        }
+        .schedule-row {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .day {
+            font-size: 2em; /* 2× larger */
+            font-weight: bold;
+            width: 150px;
+        }
+        .details {font-size: 1em;}
         .blog-post {font-size: 20px;}
         .big {font-size: 1.5em;}
         .bigger {font-size: 3em;}
@@ -17,15 +43,14 @@
          
         #Grand_Heading {
             position: relative; left: 10%; top:100px;
-            background: rgb(189, 132, 250);
+            background: #9146ff;
             padding: 3px;
-            border: 2px solid purple;
+            border: 2px solid rgb(81, 29, 81);
             border-radius: 5px;
             z-index: 2;
             font-size: 20px; color: white;
             font-family: verdana;
             font-weight: bold;
-            padding: 10;
             text-decoration:underline;
             text-align: left;
             display: inline-block; padding: 5px;
@@ -34,6 +59,7 @@
             position: relative; left: 11%; top:90px;
             font-size: 11px;
             color: black;
+            padding-bottom: 0px;
             
          }
         #ToC {
@@ -45,18 +71,28 @@
             font-family: Verdana;
             font-size: 15px;
             color: white;
-            background-color: rgb(212, 106, 212); 
+            background-color: #9146ff; 
             display: inline-block;
             width:400px; height:200px;
             padding: 1px;
-            border: 2px solid purple;
+            border: 2px solid rgb(81, 29, 81);
             border-radius: 5px;
         }
         #updates {
-            background: rgb(100,240,230);    
+            background: rgb(33, 157, 149);    
             overflow: auto;
-            margin: 10px 50px 1px 50px;
+            margin: 100px 50px 1px 50px;
             border: 5px ridge green;
-            padding: 20px;
-
+            padding-left: 20px;
+            padding-right: 20px;
         }   
+        .twitch-embed {
+            margin-top: 100px;
+            width: 80%;
+            height: 50%;
+            max-width: 1080px;
+            max-height: 1920px;
+            position: relative;
+            left: 10%;
+            
+        }
