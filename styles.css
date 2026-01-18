@@ -7,8 +7,6 @@
         body {
         font-size: 11px;
         background-image: url(/assets/poketopia.png);
-        background-repeat: yes;
-        background-position: center center;
         }
 
         h6 {font-size: 2em;} 
