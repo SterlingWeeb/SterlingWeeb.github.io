@@ -6,7 +6,7 @@
     
         body {
         font-size: 11px;
-        background-image: url(/assets/poketopia.png);
+        background-image: url(../assets/poketopia.png);
         }
 
         h6 {font-size: 2em;} 
@@ -58,4 +58,5 @@
             margin: 10px 50px 1px 50px;
             border: 5px ridge green;
             padding: 20px;
+
         }   
