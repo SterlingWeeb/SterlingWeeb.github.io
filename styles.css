@@ -5,11 +5,12 @@
     a:active {color: yellow;}
     
         body {
-        font-size: 11px;
+        font-size: 1em;
         background-image: url(../assets/poketopia.png);
         background-size: cover;
-        background-repeat: no-repeat;
         background-position: center center;
+        height: 100vh;
+        margin: 0px;
         }
         h6 {font-size: 2em; font-weight: bold;} 
         .schedule {
@@ -36,7 +37,7 @@
             width: 150px;
         }
         .details {font-size: 1em;}
-        .blog-post {font-size: 20px;}
+        .blog-post {font-size: 1em;}
         .big {font-size: 1.5em;}
         .bigger {font-size: 3em;}
         .text-red {color: red;}
@@ -64,17 +65,17 @@
          }
         #ToC {
             margin-top: 100px;
-            margin-bottom: 50px;
+           
             padding-top: 50px;
             bottom: 1px; 
             text-align: left;
             font-family: Verdana;
-            font-size: 15px;
+            font-size: 2em;
             color: white;
             background-color: #9146ff; 
             display: inline-block;
-            width:400px; height:200px;
-            padding: 1px;
+            width:60%; height:50%;
+            padding: 10px;
             border: 2px solid rgb(81, 29, 81);
             border-radius: 5px;
         }
@@ -95,30 +96,33 @@
             
         }
         #Header {
-    width: 100%;
-    position: center;
-    top: 0px;
-    max-width: 100%;
-    height: auto;
-    vertical-align: top;
+            width: 100%;
+            position: center;
+            top: 0px;
+            max-width: 100%;
+            height: auto;
+            vertical-align: top;
         }
+
     .stream-layout {
     display: flex;
-    gap: 20px; /* space between Twitch and YouTube */
-    margin-top: 40px;}
+    gap: 5%; /* space between Twitch and YouTube */
+    margin-top: 1%;}
 
     .twitch-column {
-    flex: 1.5;
+    flex: 2;
     width: 100%;
-    height: 80%;}
+    height: 80%;
+}
     .youtube-column {
+    position: relative;
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5%;
     margin-top: 100px;
 }
     .yt-embed {
-    width: 100%;
+    width: 70%;
     height: 35%;
   }
