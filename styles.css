@@ -70,7 +70,7 @@
             padding-bottom: 100px; 
             text-align: left;
             font-family: Verdana;
-            font-size: 1.7em;
+            font-size: 1.5em;
             color: white;
             background-color: #9146ff; 
             display: inline-block;
@@ -110,19 +110,17 @@
     margin-top: 1%;}
 
     .twitch-column {
-    flex: 2;
-    width: 100%;
-    height: 80%;
+    flex: 1.8;
 }
     .youtube-column {
     position: relative;
-    flex: 1;
+    flex: 1.2;
     display: flex;
     flex-direction: column;
     gap: 5%;
     margin-top: 100px;
+    padding-left: 20px;
 }
     .yt-embed {
-    width: 70%;
-    height: 35%;
+padding: 10px;
   }
